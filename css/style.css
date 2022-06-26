@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header Start*/
+body{
+    background-color: #121b2a;
+}
+
+header{
+    
+    
+   
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.container .logo{
+    width: 20%;
+    float: left;
+}
+.container .logo img{
+    width: 100%;
+}
+.menu{
+    width: 80%;
+    float: right;
+    margin-top: 60px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    color: #fff;
+}
+.menu ul li a:hover{
+    color: #0079be;
+    transition: .5s;
+}
+/*Header End*/
+/*Main Section Start*/
+section{
+    background-image: url(../images/content_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+}
+.content{
+    width: 50%;
+    margin-top: 200px;
+}
+.container h2{
+    font-size: 40px;
+    color: #fff;
+}
+.container h1{
+    font-size: 48px;
+    color: #0079be;
+}
+.container p{
+    line-height: 1.5;
+    color: #fff;
+}
+.container button{
+    
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container button a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-weight: 600;
+    font-size: 24px;
+    float: left;
+    padding: 10px 40px;
+}
+.container button a span{
+   width: 40px;
+   position: absolute;
+   float:right;
+}
+
+
+/*Main Section End*/
+/*3 Section Start*/
+.section_three{
+    padding: 20px 0;
+    overflow: hidden;
+   
+}
+.t_section{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 5px 10px 5px 0px;
+    float: left;
+    margin-right: 5%;
+}
+.t_section:last-child{
+    margin-right: 0;
+}
+.t_section .section_top{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.t_section .section_top .left{
+    width: 20%;
+    float: left;
+}
+.t_section .section_top .right{
+    float: left;
+    padding: 0 10px;
+}
+.t_section .section_top img{
+    width: 100%;
+}
+
+.t_section .section_top h2{
+    
+}
+.t_section .section_top h3{
+    color: #0079be;
+}
+.t_section .section_bottum{}
+.t_section .section_bottum p{
+    line-height: 1.5;
+}
+/*3 Section End*/
+/*3 Collumn Start*/
+
+.container2{
+    background-color: #040811;
+    overflow: hidden;
+    
+}
+.collumn_wrapper{
+    width: 85%;
+    margin: 50px auto  10px auto;
+    color: #fff;
+    overflow: hidden;
+}
+.collumn1{
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+.collumn1 h2{}
+.collumn1 p{
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.collumn1 address{
+    line-height: 1.5;
+}
+.container2 span{
+    color: #0079be;
+}
+.no_marg{
+    margin-right: 0;
+    width: 35%;
+    float: left;
+}
+.top_collumn{
+    background-color: #0c1019;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.top_collumn h2{
+    margin: 15px 0;
+    text-align: center;
+}
+.top_collumn p{
+    line-height: 1.5;
+    margin: 20px 0;
+}
+.bottum_collumn{
+    margin: 20px 20px;
+}
+.bottum_collumn p{
+    
+}
+.bottum_collumn a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+}
+.mrg_left{
+    margin-left: 5%;
+    margin-right: 0;
+    width: 30%;
+}
+.left_side{
+    width: 45%;
+    float: left;
+    
+}
+.left_side img{
+    width: 100%;
+    z-index: 1;
+    margin-top: -10px;
+}
+.right_side{
+    float: right;
+    width: 55%;
+    
+}
+.right_side .top_con{}
+.right_side .top_con h3{
+   font-size: 24px;
+   padding-left: 10px;
+}
+.right_side .top_con h2{
+    color: #0079be;
+    line-height: 1.5;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.bottum_con{
+    width: 90%;
+    margin-left: 10px;
+}
+.bottum_con img{
+    width: 100%;
+}
+
+
+/*3 Collumn End*/
+/*Footer Start*/
+footer{
+    width: 85%;
+    margin: 20px auto;
+    overflow: hidden;
+    
+}
+footer .f_menu{
+   width: 55%;
+   float: left;
+}
+footer .f_menu_top{
+    overflow: hidden;
+}
+footer .f_menu_top ul{
+    float: left;
+    
+}
+footer .f_menu_top ul li{
+    list-style-type: none;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+footer .f_menu_top ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #ddd;
+    
+}
+footer .f_menu_top ul li:last-child{
+    border-right: none;
+}
+footer .f_menu_top ul li:hover{}
+footer .f_menu_bottum{
+    color: #ddd;
+    padding: 20px 30px;
+}
+footer .f_logo{
+    width: 40%;
+    overflow: hidden;
+}
+footer .f_logo_left{
+    width: 45%;
+    float: left;
+}
+footer .f_logo_left img{
+    width: 100%;
+}
+footer .f_logo_right{
+    width: 45%;
+    float: left;
+    margin-left: 10% ;
+}
+footer .f_logo_right img{
+    width: 100%;
+}
+/*Footer End*/
